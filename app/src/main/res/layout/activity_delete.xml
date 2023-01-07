@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtdelete_id"
+        android:inputType="number"
+        android:textColorHint="@color/teal_200"
+        android:hint="Enter ID"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE Record"
+        android:background="#8BC34A"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btndelete_delete"
+        />
+</LinearLayout>
